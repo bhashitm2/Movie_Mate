@@ -23,7 +23,7 @@ A modern, feature-rich movie discovery application built with React, Firebase, a
 
 ## 🚀 Live Demo
 
-Check out the live application: [https://movie-mate-psi.vercel.app/](https://movie-mate-psi.vercel.app/)
+Check out the live application: [https://movie-mate-psi.vercel.app/](https://movie-mate-eta-livid.vercel.app/)
 
 ## 📸 Screenshots
 
