@@ -217,46 +217,6 @@ Dual pagination approach:
 - Traditional page navigation
 - Smart caching to prevent redundant API calls
 
-## 🚀 Deployment
-
-The app is optimized for deployment on:
-
-- **Vercel** (Recommended - Current deployment)
-- **Firebase Hosting**
-- **Netlify**
-- **GitHub Pages**
-
-### Deploy to Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Deploy to Firebase
-
-```bash
-npm install -g firebase-tools
-firebase login
-firebase init hosting
-npm run build
-firebase deploy --only hosting
-```
-
-## 🐛 Known Issues & Solutions
-
-### Build Error: "vite: not found"
-
-**Solution**: Vite is now in dependencies, not devDependencies. Run `npm install` again.
-
-### Firebase COOP Errors
-
-**Solution**: The app automatically falls back to redirect authentication if popup is blocked.
-
-### Genre Not Loading
-
-**Solution**: Fixed with proper useEffect dependencies in Movies component.
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
